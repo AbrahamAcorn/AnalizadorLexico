@@ -15,6 +15,7 @@ public class Principal {
     public static void main(String[] args) {
         //se debe especificar la ruta para el lexer en este caso es la siguiente:
         String ruta = "C:/Users/Abraham/Documents/NetBeansProjects/AnalizadorLexico/src/codigo/Lexer.flex";
+        //C:\Users\Abraham\Documents
         generarLexer(ruta);
     }
     public static void generarLexer(String ruta){
